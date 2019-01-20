@@ -219,15 +219,15 @@ button:focus {
 /*--------------------*/
 /* HEADER */
 /*--------------------*/
-/*
+
 .mu-hero-overlay,
 .mu-video-overlay {
 	background-color: #2574A9; #fallback for old browsers 
-    background: -webkit-linear-gradient(to right, #FEC35D, #C0DC91, #79B6E3);  /* Chrome 10-25, Safari 5.1-6 
-    background: linear-gradient(to right, #FEC35D, #C0DC91, #79B6E3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
+    background: -webkit-linear-gradient(to right, #FEC35D, #C0DC91, #79B6E3);  
+    background: linear-gradient(to right, #FEC35D, #C0DC91, #79B6E3); 
 
 }
-*/
+
 
 #mu-hero {
 	background-image: url("assets/images/neum-2014.jpg") ;
@@ -1456,14 +1456,53 @@ button:focus {
 		font-size: 14px;
 	}
 
-	.mu-event-counter-block {
+	#days {
 		height: 130px;
 		width: 130px;
 		font-size: 16px;
 		margin: 0 10px;
 	}
 
-	.mu-event-counter-block span {
+	#days {
+		font-size: 30px;
+		padding-top: 32px;
+		line-height: 32px;
+	}
+
+	#hours {
+		height: 130px;
+		width: 130px;
+		font-size: 16px;
+		margin: 0 10px;
+	}
+
+	#hours {
+		font-size: 30px;
+		padding-top: 32px;
+		line-height: 32px;
+	}
+
+	#minutes {
+		height: 130px;
+		width: 130px;
+		font-size: 16px;
+		margin: 0 10px;
+	}
+
+	#minutes {
+		font-size: 30px;
+		padding-top: 32px;
+		line-height: 32px;
+	}
+
+	#seconds {
+		height: 130px;
+		width: 130px;
+		font-size: 16px;
+		margin: 0 10px;
+	}
+
+	#seconds {
 		font-size: 30px;
 		padding-top: 32px;
 		line-height: 32px;
@@ -1579,17 +1618,55 @@ button:focus {
 
 @media (max-width: 640px){
 	
-	.mu-event-counter-block {
+	
+	#days {
 		height: 100px;
 		width: 100px;
 		font-size: 15px;
 	}
 
-	.mu-event-counter-block span {
+	#days {
 		font-size: 22px;
 		padding-top: 22px;
 		line-height: 25px;
 	}
+
+	#hours {
+		height: 100px;
+		width: 100px;
+		font-size: 15px;
+	}
+
+	#hours {
+		font-size: 22px;
+		padding-top: 22px;
+		line-height: 25px;
+	}
+
+	#minutes {
+		height: 100px;
+		width: 100px;
+		font-size: 15px;
+	}
+
+	#minutes {
+		font-size: 22px;
+		padding-top: 22px;
+		line-height: 25px;
+	}
+
+	#seconds {
+		height: 100px;
+		width: 100px;
+		font-size: 15px;
+	}
+
+	#seconds {
+		font-size: 22px;
+		padding-top: 22px;
+		line-height: 25px;
+	}
+
 
 	.mu-title-area {
 		padding: 0;
@@ -1651,17 +1728,56 @@ button:focus {
 		margin-top: 20px;
 	}
 	
-	.mu-event-counter-block span {
+	#days {
+		height: 75px;
+		width: 75px;
+		font-size: 12px;
+		margin: 0 5px;
+	}
+
+	#days {
 		font-size: 18px;
 		padding-top: 16px;
 		line-height: 20px;
 	}
 
-	.mu-event-counter-block {
+	#hours {
 		height: 75px;
 		width: 75px;
 		font-size: 12px;
 		margin: 0 5px;
+	}
+
+	#hours {
+		font-size: 18px;
+		padding-top: 16px;
+		line-height: 20px;
+	}
+
+	#minutes {
+		height: 75px;
+		width: 75px;
+		font-size: 12px;
+		margin: 0 5px;
+	}
+
+	#minutes {
+		font-size: 18px;
+		padding-top: 16px;
+		line-height: 20px;
+	}
+
+	#seconds {
+		height: 75px;
+		width: 75px;
+		font-size: 12px;
+		margin: 0 5px;
+	}
+
+	#seconds {
+		font-size: 18px;
+		padding-top: 16px;
+		line-height: 20px;
 	}
 	
 	.mu-video-close-btn {
@@ -1757,12 +1873,41 @@ button:focus {
 		padding: 30px 0 30px;
 	}
 
-	.mu-event-counter {
-		
+	#days {
 		font-size: 5px;
 	}
 
-	.mu-event-counter-block span {
+	#days {
+		font-size: 10px;
+		padding-top: 10px;
+		line-height: 16px;
+	}
+
+	#hours {
+		font-size: 5px;
+	}
+
+	#hours {
+		font-size: 10px;
+		padding-top: 10px;
+		line-height: 16px;
+	}
+
+	#minutes {
+		font-size: 5px;
+	}
+
+	#minutes {
+		font-size: 10px;
+		padding-top: 10px;
+		line-height: 16px;
+	}
+
+	#seconds {
+		font-size: 5px;
+	}
+
+	#seconds {
 		font-size: 10px;
 		padding-top: 10px;
 		line-height: 16px;
@@ -1813,6 +1958,7 @@ button:focus {
 
 	h2 {
 		font-size: 22px;
+		
 	}
 	
 	.mu-event-counter {
