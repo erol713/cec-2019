@@ -219,16 +219,16 @@ button:focus {
 /*--------------------*/
 /* HEADER */
 /*--------------------*/
-
+/*
 .mu-hero-overlay,
 .mu-video-overlay {
-	background-color: #2574A9; #fallback for old browsers 
+	background-color: #2574A9;  
     background: -webkit-linear-gradient(to right, #FEC35D, #C0DC91, #79B6E3);  
     background: linear-gradient(to right, #FEC35D, #C0DC91, #79B6E3); 
 
 }
 
-
+*/
 #mu-hero {
 	background-image: url("assets/images/neum-2014.jpg") ;
 	display: inline;
