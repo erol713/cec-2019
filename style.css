@@ -219,14 +219,16 @@ button:focus {
 /*--------------------*/
 /* HEADER */
 /*--------------------*/
-
+/*
 .mu-hero-overlay,
 .mu-video-overlay {
-	background-color: #2574A9;/* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FEC35D, #C0DC91, #79B6E3);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FEC35D, #C0DC91, #79B6E3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-color: #2574A9; #fallback for old browsers 
+    background: -webkit-linear-gradient(to right, #FEC35D, #C0DC91, #79B6E3);  /* Chrome 10-25, Safari 5.1-6 
+    background: linear-gradient(to right, #FEC35D, #C0DC91, #79B6E3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
 
 }
+*/
+
 #mu-hero {
 	background-image: url("assets/images/neum-2014.jpg") ;
 	display: inline;
