@@ -37,7 +37,7 @@ html {
 }
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Nova Round', cursive;
 	font-size: 15px;
 	letter-spacing: 0.5px;
 	line-height: 1.5;
@@ -72,7 +72,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Nova Round', cursive;
 	font-weight: 700;
 	margin-top: 0;
 }
@@ -220,6 +220,13 @@ button:focus {
 /* HEADER */
 /*--------------------*/
 
+.mu-hero-overlay,
+.mu-video-overlay {
+	background-color: #2574A9;/* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FEC35D, #C0DC91, #79B6E3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FEC35D, #C0DC91, #79B6E3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
 #mu-hero {
 	background-image: url("assets/images/neum-2014.jpg") ;
 	display: inline;
@@ -229,6 +236,7 @@ button:focus {
 	background-attachment: fixed;
 	-webkit-background-size: cover;
 	background-size: cover;
+
 }
 
 .mu-hero-overlay {
@@ -247,7 +255,7 @@ button:focus {
 
 .mu-logo {
 	font-size: 35px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Nova Round', cursive;
 	display: inline-block;
 	font-weight: 600;
 	background: #fff;
@@ -331,7 +339,7 @@ button:focus {
 	text-align: center;
 	font-size: 45px;
 	color: #fff;
-	font-weight: 500;
+	font-weight: 700;
 
 
 
@@ -341,26 +349,50 @@ button:focus {
 
 
 
-.mu-event-counter-block {
+#days{
 	border: 2px solid #fff;
 	border-radius: 50%;
 	display: inline-block;
 	height: 180px;
 	width: 180px;
-	text-align: center;
-	font-size: 22px;
 	color: #fff;
-	margin: 0 20px;
-	font-weight: 300;
+	margin: 20px 20px;
+	padding-top: 35px;
 }
 
-.mu-event-counter-block span {
-	display: block;
-	font-size: 40px;
-	font-weight: 700;
-	padding-top: 56px;
-	line-height: 40px;
+#hours{
+	border: 2px solid #fff;
+	border-radius: 50%;
+	display: inline-block;
+	height: 180px;
+	width: 180px;
+	color: #fff;
+	margin: 20px 20px;
+	padding-top: 35px;
 }
+
+#minutes{
+	border: 2px solid #fff;
+	border-radius: 50%;
+	display: inline-block;
+	height: 180px;
+	width: 180px;
+	color: #fff;
+	margin: 20px 20px;
+	padding-top: 35px;
+}
+
+#seconds{
+	border: 2px solid #fff;
+	border-radius: 50%;
+	display: inline-block;
+	height: 180px;
+	width: 180px;
+	color: #fff;
+	margin: 20px 20px;
+	padding-top: 35px;
+}
+
 
 /*--------------------*/
 /* MENU */

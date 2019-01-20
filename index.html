@@ -20,8 +20,9 @@
     <!-- Main Style -->
     <link href="style.css" rel="stylesheet">
 
-    <!-- Fonts -->
 
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nova+Round" rel="stylesheet">
     <!-- Open Sans for body font -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800" rel="stylesheet">
 	<!-- Montserrat for title -->
@@ -53,7 +54,7 @@
 			      </button>
 
 			      <!-- Logo -->
-			      <a class="navbar-brand" href="index.html">LOGO SLIKA</a>
+			      <a class="navbar-brand" href="#mu-hero">LOGO SLIKA</a>
 
 			    </div>
 
@@ -96,7 +97,11 @@
 
 							<div class="mu-event-counter-area">
 								<div id="mu-event-counter">
-										
+									<span id="days"></span>
+									<span id="hours"></span>	
+									<span id="minutes"></span>	
+									<span id="seconds"></span>	
+
 									
 								</div>
 								
@@ -124,7 +129,7 @@
 							<div class="row">
 								<div class="col-md-6">
 									<div class="mu-about-left">
-										<img class="" src="assets/images/logo.png" alt="Men Speaker">
+										<img class="" src="assets/images/neum-2014.jpg" alt="Men Speaker">
 									</div>
 								</div>
 								<div class="col-md-6">
@@ -201,32 +206,29 @@
 								    	<ul>
 								    		<li>
 								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">9.00 AM</p>
-								    				<h3>Breakfast</h3>
+								    				<p class="mu-event-time">14.00 PM - 18.00 PM</p>
+								    				<h3>Registration</h3>
 								    			</div>
 								    		</li>
 								    		<li>
 								    			<div class="mu-single-event">
 								    				<img src="assets/images/speaker-1.jpg" alt="event speaker">
-								    				<p class="mu-event-time">10.00 AM</p>
-								    				<h3>Advanced SVG Animations</h3>
-								    				<span>By Ime Prezime</span>
+								    				<p class="mu-event-time">15.00 PM - 18.00PM</p>
+								    				<h3>CER Representatives meeting</h3>
 								    			</div>
 								    		</li>
 								    		<li>
 								    			<div class="mu-single-event">
 								    				<img src="assets/images/speaker-2.jpg" alt="event speaker">
-								    				<p class="mu-event-time">11.00 AM</p>
-								    				<h3>Presenting Work with Confidence</h3>
-								    				<span>By Ime Prezime</span>
+								    				<p class="mu-event-time">19.30 PM - 20.00 PM</p>
+								    				<h3>Dinner</h3>
 								    			</div>
 								    		</li>
 								    		<li>
 								    			<div class="mu-single-event">
 								    				<img src="assets/images/speaker-3.jpg" alt="event speaker">
-								    				<p class="mu-event-time">12.00 AM</p>
-								    				<h3>Keynote on UX & UI Design</h3>
-								    				<span>By Ime Prezime</span>
+								    				<p class="mu-event-time">20.30 PM</p>
+								    				<h3>Opening ceremony</h3>
 								    			</div>
 								    		</li>
 								    		<li>
@@ -241,7 +243,7 @@
 								    	<ul>
 								    		<li>
 								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">9.00 AM</p>
+								    				<p class="mu-event-time">8.00 AM</p>
 								    				<h3>Breakfast</h3>
 								    			</div>
 								    		</li>
@@ -249,29 +251,73 @@
 								    			<div class="mu-single-event">
 								    				<img src="assets/images/speaker-1.jpg" alt="event speaker">
 								    				<p class="mu-event-time">10.00 AM</p>
-								    				<h3>Advanced SVG Animations</h3>
-								    				<span>By Ime Prezime</span>
+								    				<h3>WS1 - part 1</h3>
 								    			</div>
 								    		</li>
 								    		<li>
 								    			<div class="mu-single-event">
 								    				<img src="assets/images/speaker-2.jpg" alt="event speaker">
-								    				<p class="mu-event-time">11.00 AM</p>
-								    				<h3>Presenting Work with Confidence</h3>
-								    				<span>By Ime Prezime</span>
+								    				<p class="mu-event-time">10.15 AM - 11.00 AM</p>
+								    				<h3>Coffee break</h3>
 								    			</div>
 								    		</li>
 								    		<li>
 								    			<div class="mu-single-event">
 								    				<img src="assets/images/speaker-3.jpg" alt="event speaker">
-								    				<p class="mu-event-time">12.00 AM</p>
-								    				<h3>Keynote on UX & UI Design</h3>
-								    				<span>By Ime Prezime</span>
+								    				<p class="mu-event-time">11.00 AM - 12.30 PM</p>
+								    				<h3>WS1 - part 2</h3>
 								    			</div>
 								    		</li>
 								    		<li>
 								    			<div class="mu-single-event">
 								    				<p class="mu-event-time">1.00 PM</p>
+								    				<h3>Lunch</h3>
+								    			</div>
+								    		</li>
+								    		<li>
+								    			<div class="mu-single-event">
+								    				<img src="assets/images/speaker-3.jpg" alt="event speaker">
+								    				<p class="mu-event-time">14.00 PM </p>
+								    				<h3>Group photoshoot</h3>
+								    			</div>
+								    		</li>
+								    		<li>
+								    			<div class="mu-single-event">
+								    				<img src="assets/images/speaker-1.jpg" alt="event speaker">
+								    				<p class="mu-event-time">15.00 PM</p>
+								    				<h3>WS1 - part 1</h3>
+								    			</div>
+								    		</li>
+								    		<li>
+								    			<div class="mu-single-event">
+								    				<img src="assets/images/speaker-2.jpg" alt="event speaker">
+								    				<p class="mu-event-time">16.15 PM - 16.30 PM</p>
+								    				<h3>Coffee break</h3>
+								    			</div>
+								    		</li>
+								    		<li>
+								    			<div class="mu-single-event">
+								    				<img src="assets/images/speaker-3.jpg" alt="event speaker">
+								    				<p class="mu-event-time">16.30 PM - 18.00 PM</p>
+								    				<h3>WS1 - part 2</h3>
+								    			</div>
+								    		</li>
+								    		<li>
+								    			<div class="mu-single-event">
+								    				<p class="mu-event-time">18.00 PM</p>
+								    				<h3>Dinner</h3>
+								    			</div>
+								    		</li>
+								    		<li>
+								    			<div class="mu-single-event">
+								    				<img src="assets/images/speaker-3.jpg" alt="event speaker">
+								    				<p class="mu-event-time">20.30 PM</p>
+								    				<h3>International evening</h3>
+								    			</div>
+								    		</li>
+								    		<li>
+								    			<div class="mu-single-event">
+								    				<p class="mu-event-time">3.00 AM</p>
 								    				<h3>The End</h3>
 								    			</div>
 								    		</li>
@@ -281,38 +327,22 @@
 								    	<ul>
 								    		<li>
 								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">9.00 AM</p>
+								    				<p class="mu-event-time">8.00 AM</p>
 								    				<h3>Breakfast</h3>
 								    			</div>
 								    		</li>
 								    		<li>
 								    			<div class="mu-single-event">
 								    				<img src="assets/images/speaker-1.jpg" alt="event speaker">
+								    				<p class="mu-event-time">9.30 AM</p>
+								    				<h3>Closing ceremony</h3>
+								    				<span>By Ime Prezime</span>
+								    			</div>
+								    		</li>						    		
+								    		<li>
+								    			<div class="mu-single-event">
 								    				<p class="mu-event-time">10.00 AM</p>
-								    				<h3>Advanced SVG Animations</h3>
-								    				<span>By Ime Prezime</span>
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<img src="assets/images/speaker-2.jpg" alt="event speaker">
-								    				<p class="mu-event-time">11.00 AM</p>
-								    				<h3>Presenting Work with Confidence</h3>
-								    				<span>By Ime Prezime</span>
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<img src="assets/images/speaker-3.jpg" alt="event speaker">
-								    				<p class="mu-event-time">12.00 AM</p>
-								    				<h3>Keynote on UX & UI Design</h3>
-								    				<span>By Ime Prezime</span>
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">1.00 PM</p>
-								    				<h3>The End</h3>
+								    				<h3>Check out</h3>
 								    			</div>
 								    		</li>
 								    	</ul>
@@ -520,24 +550,59 @@
 							
 							<div class="mu-pricing-conten">
 								<div class="row">
-									
+
 									<!-- single price item -->
-									<div class="col-md-12">
+									<div class="col-md-4">
 										<div class="mu-single-price">
 
 											<div class="mu-single-price-head">
-												
-												<span class="mu-rate">50</span>
-												<span class="mu-currency">KM</span>
+												<span class="mu-currency">€</span>
+												<span class="mu-rate">91</span>
 												<span class="mu-time">/all days</span>
 											</div>
-											<h3 class="mu-price-title">BASIC</h3>
+											<h3 class="mu-price-title">Full members</h3>
 											<ul>
-												<li>Basic Ticket</li>
+												<li>Basic Class Ticket</li>
 												<li>Access to all sessions</li>
-												<li>Free Breakfast</li>
 											</ul>
-											<a class="mu-register-btn" href="#mu-register"> Register Now</a>
+											<a class="mu-register-btn" href="#"> Register Now</a>
+										</div>
+									</div>
+									<!-- / single price item -->
+
+									<!-- single price item -->
+									<div class="col-md-4">
+										<div class="mu-single-price mu-popular-price">
+											<div class="mu-single-price-head">
+												<span class="mu-currency">€</span>
+												<span class="mu-rate">93</span>
+												<span class="mu-time">/all days</span>
+											</div>
+											<h3 class="mu-price-title">Associate members</h3>
+											<ul>
+												<li>Basic Class Ticket</li>
+												<li>Access to all sessions</li>
+											</ul>
+											<a class="mu-register-btn" href="#"> Register Now</a>
+										</div>
+									</div>
+									<!-- / single price item -->
+
+									<!-- single price item -->
+									<div class="col-md-4">
+										<div class="mu-single-price">
+
+											<div class="mu-single-price-head">
+												<span class="mu-currency">€</span>
+												<span class="mu-rate">95</span>
+												<span class="mu-time">/all days</span>
+											</div>
+											<h3 class="mu-price-title">Non CER members</h3>
+											<ul>
+												<li>Basic Class Ticket</li>
+												<li>Access to all sessions</li>
+											</ul>
+											<a class="mu-register-btn" href="#"> Register Now</a>
 										</div>
 									</div>
 									<!-- / single price item -->
@@ -828,9 +893,9 @@
 				<div class="mu-footer-area">
 					<div class="mu-footer-top">
 						<div class="mu-social-media">
-							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="https://www.facebook.com/iaestecec/"><i class="fa fa-facebook"></i></a>
 							<a href="#"><i class="fa fa-twitter"></i></a>
-							<a href="#"><i class="fa fa-google-plus"></i></a>
+							<a href="https://www.instagram.com/iaestecec/"><i class="fa fa-instagram"></i></a>
 							<a href="#"><i class="fa fa-linkedin"></i></a>
 							<a href="#"><i class="fa fa-youtube"></i></a>
 						</div>
