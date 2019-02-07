@@ -9,8 +9,10 @@ Author URI : http://www.markups.io/
 .mu-hero-overlay,
 .mu-video-overlay {
 	background-color: #ee4532;/* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #64b3f4, #ee4532);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #64b3f4, #ee4532); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /*background: -webkit-linear-gradient(to right, #64b3f4, #ee4532);  /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to right, #64b3f4, #ee4532); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #FEC35D, #C0DC91, #79B6E3);  /*  BOje sajtaChrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FEC35D, #C0DC91, #79B6E3); /* BOje sajta W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 

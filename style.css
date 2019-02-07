@@ -219,7 +219,6 @@ button:focus {
 /*--------------------*/
 /* HEADER */
 /*--------------------*/
-/*
 .mu-hero-overlay,
 .mu-video-overlay {
 	background-color: #2574A9;  
@@ -228,7 +227,7 @@ button:focus {
 
 }
 
-*/
+
 #mu-hero {
 	background-image: url("assets/images/neum-2014.jpg") ;
 	display: inline;
@@ -348,7 +347,27 @@ button:focus {
 }
 
 
+/*columns*/
 
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
 #days{
@@ -1152,7 +1171,7 @@ button:focus {
 .mu-faq-area {
 	display: inline;
 	float: left;
-	padding: 150px 0;
+	padding: 100px 0;
 	width: 100%;
 }
 
@@ -1611,6 +1630,10 @@ button:focus {
 	.mu-contact-content {
 		padding: 0 10%;
 	}
+	.column {
+    width: 100%;
+  }
+}
 				
 
 }
@@ -1742,7 +1765,11 @@ button:focus {
 	.mu-faq-content .panel-title {
 		font-size: 14px;
 	}
-					
+	
+	.column {
+    width: 100%;
+  }
+}		
 	
 }
 
