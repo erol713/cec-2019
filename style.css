@@ -262,6 +262,8 @@ button:focus {
 	background: #fff;
 	padding: 5px 20px;
 	margin-bottom: 30px;
+	color: #000;
+
 }
 
 
@@ -305,21 +307,21 @@ button:focus {
 
 .mu-hero-featured-content h1 {
 	font-size: 45px;
-	color: #fff;
+	color: #000;
 	font-weight: 300;
 	margin-bottom: 15px;
 }
 
 
 .mu-hero-featured-content h2 {
-	color: #fff;
+	color: #000;
 	font-size: 25px;
 	font-weight: 300;
 }
 
 .mu-event-date-line {
 	background-color: #fff;
-	color: #333;
+	color: #000;
 	padding: 5px 10px;
 	display: inline-block;
 	margin-top: 10px;
@@ -338,9 +340,9 @@ button:focus {
 	float: left;
 	width: 100%;
 	text-align: center;
-	font-size: 45px;
-	color: #fff;
-	font-weight: 700;
+	font-size: 40px;
+	font-weight: 500;
+	color: #000;
 
 
 
@@ -371,48 +373,50 @@ button:focus {
 
 
 #days{
-	border: 2px solid #fff;
+	border: 4px solid #000;
 	border-radius: 50%;
 	display: inline-block;
 	height: 180px;
 	width: 180px;
-	color: #fff;
+	color: #000;
 	margin: 20px 20px;
-	padding-top: 35px;
+	padding-top: 35px; 
 }
 
 #hours{
-	border: 2px solid #fff;
+	border: 4px solid #000;
 	border-radius: 50%;
 	display: inline-block;
 	height: 180px;
 	width: 180px;
-	color: #fff;
+	color: #000;
 	margin: 20px 20px;
 	padding-top: 35px;
 }
 
 #minutes{
-	border: 2px solid #fff;
+	border: 4px solid #000;
 	border-radius: 50%;
 	display: inline-block;
 	height: 180px;
 	width: 180px;
-	color: #fff;
+	color: #000;
 	margin: 20px 20px;
 	padding-top: 35px;
 }
 
 #seconds{
-	border: 2px solid #fff;
+	border: 4px solid #000;
 	border-radius: 50%;
 	display: inline-block;
 	height: 180px;
 	width: 180px;
-	color: #fff;
+	color: #000;
 	margin: 20px 20px;
 	padding-top: 35px;
 }
+
+
 
 
 /*--------------------*/
@@ -438,6 +442,7 @@ button:focus {
 	padding: 15px 15px;
 	font-size: 28px;
 	line-height: 20px;
+	color: #000;
 }
 
 .mu-navbar .mu-menu li a {
@@ -519,6 +524,7 @@ button:focus {
 	display: inline;
 	float: left;
 	width: 100%;
+
 }
 
 .mu-video-overlay {
@@ -534,10 +540,11 @@ button:focus {
 	padding: 200px 0;
 	text-align: center;
 	width: 100%;
+
 }
 
 .mu-video-area h2 {
-	color: #fff;
+	color: #000;
 }
 
 .mu-video-content {
@@ -548,9 +555,9 @@ button:focus {
 
 .mu-video-play-btn,
 .mu-video-close-btn {
-	color: #fff;
-	font-size: 22px;
-	border: 2px solid #fff;
+	color: #000;
+	font-size: 25px;
+	border: 2px solid #000;
 	border-radius: 50%;
 	width: 60px;
 	display: inline-block;
@@ -565,7 +572,7 @@ button:focus {
 
 .mu-video-play-btn:hover,
 .mu-video-play-btn:focus {
-	color: #fff;
+	color: #000;
 	-webkit-transform: scale(1.2);
 	        transform: scale(1.2);
 }
@@ -673,6 +680,8 @@ button:focus {
 .mu-schedule-menu li.active a:hover,
 .mu-schedule-menu li.active a:focus {
 	color: #fff;
+
+
 }
 
 .mu-schedule-content{
@@ -761,16 +770,21 @@ button:focus {
 }
 
 .mu-event-timeline ul li .mu-single-event h3 {
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 	font-size: 16px;
+	color:#000;
 }
 
 .mu-event-timeline ul li .mu-single-event p {
-	margin-bottom: 5px;
+	margin-bottom: 10px;
+	color:#000;
+
 }
 
 .mu-event-timeline ul li .mu-single-event span {
-	font-size: 12px;
+	font-size: 15px;
+	color:#000;
+
 }
 
 
@@ -857,6 +871,7 @@ button:focus {
 	display: inline;
 	float: left;
 	width: 100%;
+	background-color: #363636;
 }
 
 .mu-venue-area {
@@ -869,6 +884,7 @@ button:focus {
 	display: inline;
 	float: left;
 	width: 100%;
+
 }
 
 .mu-venue-map iframe {
@@ -883,6 +899,8 @@ button:focus {
 	color: #fff;
 	text-align: center;
 	margin-top: 80px;
+	background-color: #363636;
+
 
 
 }
@@ -1449,6 +1467,8 @@ button:focus {
 
 @media (max-width: 991px) {	
 
+	
+
 	.mu-primary-btn {
 		font-size: 14px;
 		padding: 12px 22px;
@@ -1475,11 +1495,12 @@ button:focus {
 		font-size: 14px;
 	}
 
-	.mu-event-counter-block {
+	.mu-event-counter {
 		height: 130px;
 		width: 130px;
 		font-size: 16px;
 		margin: 0 10px;
+
 	}
 
 	.mu-event-counter-block span {
@@ -1591,6 +1612,58 @@ button:focus {
 		width: 40px;
 	}
 
+	.mu-event-counter {
+		height: 100px;
+		width: 100px;
+		font-size: 15px;
+	}
+
+	.mu-event-counter-block span {
+		font-size: 22px;
+		padding-top: 22px;
+		line-height: 25px;
+	}
+
+	#mu-event-counter {
+		
+		font-size: 25px;
+		font-weight: 500;
+		margin-top: 0px;
+		
+
+	}
+
+	
+	
+
+	#days{
+		width: 110px;
+		height: 110px;
+		margin: 0px 0px;
+		padding-top: 20px;
+	}
+	#hours{
+		width: 110px;
+		height: 110px;
+		margin: 0px 0px;
+		padding-top: 20px;
+
+	}
+	#minutes{
+		width: 110px;
+		height: 110px;
+		margin: 0px 0px;
+		padding-top: 20px;
+
+	}
+	#seconds{
+		width: 110px;
+		height: 110px;
+		margin: 10px 0px;
+		padding-top: 20px;
+
+	}
+
 		
 		
 }
@@ -1598,12 +1671,45 @@ button:focus {
 
 @media (max-width: 640px){
 	
-	.mu-event-counter-block {
-		height: 100px;
-		width: 100px;
-		font-size: 15px;
+	#mu-event-counter {
+		
+		font-size: 20px;
+		font-weight: 500;
+		margin-top: -40px;
+		
+
 	}
 
+	
+	
+
+	#days{
+		width: 90px;
+		height: 90px;
+		margin: 0px 0px;
+		padding-top: 20px;
+	}
+	#hours{
+		width: 90px;
+		height: 90px;
+		margin: 0px 0px;
+		padding-top: 20px;
+
+	}
+	#minutes{
+		width: 90px;
+		height: 90px;
+		margin: 0px 0px;
+		padding-top: 20px;
+
+	}
+	#seconds{
+		width: 90px;
+		height: 90px;
+		margin: 10px 0px;
+		padding-top: 20px;
+
+	}
 	.mu-event-counter-block span {
 		font-size: 22px;
 		padding-top: 22px;
@@ -1633,6 +1739,27 @@ button:focus {
 	.column {
     width: 100%;
   }
+  .mu-event-timeline ul li .mu-single-event,
+	.mu-event-timeline ul li:nth-child(2n+1) .mu-single-event,
+	.mu-event-timeline ul li:nth-child(2n) .mu-single-event {
+		left: 30px;
+		width: 300px;
+	}
+	.mu-event-timeline ul li {
+		margin-left: 5%;
+	}
+
+	.mu-schedule-content {
+		margin-top: 30px;
+	}
+	
+	.mu-schedule-menu li {
+		margin-bottom: 15px;
+	}
+
+	.mu-schedule-menu li a {
+		font-size: 15px;
+	}
 }
 				
 
