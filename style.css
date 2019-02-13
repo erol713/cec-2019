@@ -239,6 +239,8 @@ button:focus {
 	width: 100%;
 	background-position: center center;
 	background-attachment: fixed;
+	-o-background-size: cover;
+    -moz-background-size: cover;
 	-webkit-background-size: cover;
 	background-size: cover;
 
