@@ -34,7 +34,7 @@ Author URI : http://www.markups.io/
 .mu-navbar .mu-menu li a:hover,
 .mu-navbar .mu-menu li a:focus,
 .mu-single-event .mu-event-time {
-	color: #363636;
+	color: orange;
 }
 
 .mu-speakers-slider .slick-next,
@@ -57,13 +57,13 @@ Author URI : http://www.markups.io/
 
 .mu-social-media a:hover,
 .mu-social-media a:focus {
-	border: 3px solid #000;
-	color: #000;
+	border: solid orange;
+	color: orange;
 }
 
 .mu-contact-form .form-control:focus,
 .mu-schedule-menu li a {
-	border: 3px solid #000;    
+	border: 1px solid orange;    
 } 
 
 .mu-send-msg-btn,
@@ -76,7 +76,7 @@ Author URI : http://www.markups.io/
 }
 
 .mu-faq-content .panel-default > .panel-heading + .panel-collapse > .panel-body {
-	border-top-color: #363636;
+	border-top-color: orange;
 
 }
 
