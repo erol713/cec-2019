@@ -371,6 +371,7 @@ button:focus {
   padding: 20px;
   margin-top: 30px;
   margin-bottom: 30px;
+  text-align: justify;
 }
 
 /* Clear floats after the columns */
@@ -486,6 +487,7 @@ button:focus {
 	display: inline;
 	float: left;
 	width: 100%;
+	text-align: justify;
 }
 
 .mu-about-area {
@@ -498,7 +500,7 @@ button:focus {
 .mu-title-area {
 	display: inline;
 	float: left;
-	text-align: center;
+	text-align: justify;
 	padding: 0 120px;
 	width: 100%;
 }
@@ -509,6 +511,10 @@ button:focus {
 	padding: 0;
 	z-index: 10;
 	text-transform: capitalize;
+}
+
+.mu-title-area h2{
+	text-align: center;
 }
 
 .mu-about-left {
@@ -978,16 +984,21 @@ button:focus {
 	width: 100%;
 }
 
+
+
+
 .mu-single-price {
 	background-color: #f8f8f8;
 	display: inline;
 	float: left;
-	text-align: center;
+	text-align: justify;
 	position: relative;
 	width: 100%;
 	padding: 15px;
 	overflow: hidden;
 }
+.mu-single-price h3 {
+	text-align: center;}
 
 .mu-single-price-head {
 	color: #555;
@@ -996,6 +1007,7 @@ button:focus {
 	width: 100%;
 	margin-bottom: 10px;
 	margin-top: 10px;
+	text-align: center;
 }
 
 .mu-single-price-head .mu-currency {
@@ -1246,7 +1258,7 @@ button:focus {
 }
 
 .mu-faq-content .panel-default > .panel-heading + .panel-collapse > .panel-body {
-	text-align: left;
+	text-align: justify;
 }
 
 
