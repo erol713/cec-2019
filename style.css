@@ -500,7 +500,7 @@ button:focus {
 .mu-title-area {
 	display: inline;
 	float: left;
-	text-align:  center;
+	text-align: justify;
 	padding: 0 120px;
 	width: 100%;
 }
