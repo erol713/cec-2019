@@ -892,6 +892,16 @@ button:focus {
 /* VENUE */
 /*--------------------*/
 
+#how_to_get{
+
+
+	background-image: linear-gradient(to bottom right, #FEC35D, #bdd89a, #79B6E3);
+	padding: 20px 20px;
+}
+
+#how_to_get h3{
+	text-align: center;
+}
 #mu-venue {
 	display: inline;
 	float: left;
