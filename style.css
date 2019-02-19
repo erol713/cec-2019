@@ -364,6 +364,39 @@ button:focus {
   box-sizing: border-box;
 }
 
+
+/*split and sarajevo*/
+#sabtn{
+	margin:40px auto;
+	display:block;
+	width: 60%;
+	background-color: #fff;
+	font-size: 22px;
+	border-bottom: 1px orange solid;
+
+}
+#stbtn{
+	margin:40px auto;
+	display:block;
+	width: 60%;
+	background-color: #fff;
+	font-size: 22px;
+	border-bottom: 1px orange solid;
+
+}
+
+
+#sa{
+	margin: 20px auto 0 auto;
+	width: 80%;
+
+}
+
+#st{
+	margin: 20px auto 0 auto;
+	width: 80%; 
+}
+
 /* Create two equal columns that floats next to each other */
 .column {
   float: left;
